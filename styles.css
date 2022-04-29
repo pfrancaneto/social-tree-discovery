@@ -10,8 +10,11 @@ body {
 }
 
 .container {
-  max-width: 300px;
-  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .foto {
@@ -43,10 +46,10 @@ body {
 }
 
 .links ul li a {
+  width: 300px;
   display: block;
   text-decoration: none;
   text-transform: uppercase;
-  width: 100%;
   padding: 10px 0;
   border: 2px solid #BB99DD;
   margin-bottom: 15px;
@@ -62,6 +65,7 @@ body {
 }
 
 .icones {
+  width: 300px;
   display: flex;
   justify-content: space-around;
 }
